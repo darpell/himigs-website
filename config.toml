@@ -1,0 +1,299 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "Himig Singers"
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Himig Singers"
+	description = "Chorale Group"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "teamhimigs@gmail.com"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Himig Singers"
+		services = "Services"
+		#portfolio = "Portfolio"
+		about = "About"
+		team = "Team"
+		contact = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Welcome To Our Website!"
+		subtitle = "It's nice to meet you"
+		buttonText = "Here's more about us"
+
+
+	# Services section
+	[params.services]
+		title = "Services"
+		subtitle = "We provide services specially catered for your needs with a little bit of extra :)"
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-microphone"
+                title = "Mass Services"
+                description = "We provide proper mass music fit for the occasion"
+
+            [[params.services.row.list]]
+                icon = "fa-heart"
+                title = "Weddings"
+                description = "Weddings and other lovely events are more meaningful and memorable when music is performed :)"
+
+            [[params.services.row.list]]
+                icon = "fa-heart-o"
+                title = "Funerals"
+                description = "Offering a last good bye together with your loved ones"
+
+	# Portfolio section (NOT USED) pages are DISABLED
+	[params.portfolio]
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Portfolio"
+		subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+    # About section
+	[params.about]
+		title = "About"
+		subtitle = "Here's our little story."
+		endpoint = "Be part<br>of our<br>story!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "logo.jpg"
+			date = "March 2011"
+			title = "Our Humble Beginnings"
+			description = "Himig Singers, formerly called as Himig Andreano, mostly consists of graduates from St. Andrew's School but is open for other people who have dedication and commitment to music. The group started as guest singers at a choral conducting recital held in St. Scholastica's College last March 2011 which sung together with Coro Andreano, the official high school choir of St. Andrew's School."
+
+		[[params.about.events]]
+			img = "church_singing.jpg"
+			date = "May 2011"
+			title = "The Choir is Formed"
+			description = "Due to consistent and constant member participation during the summer of 2011, the group decided to formalize on May 2011 and started to serve for the Cathedral Parish of St. Andrew Parañaque."
+
+		[[params.about.events]]
+			img = "wedding gig 201212.jpg"
+			date = "December 2012"
+			title = "First Wedding Performance"
+			description = "Himigs first wedding performance which occurred at St. James the Great Parish Church in Ayala, Alabang."
+
+		[[params.about.events]]
+			img = "marian festival.jpg"
+			date = "October 2014"
+			title = "Himigs performs during the Living Rosary"
+			description = "The group performed a beautiful song for the Living Rosary"
+			
+		[[params.about.events]]
+			img = "wedding gig 201501.jpg"
+			date = "January 2015"
+			title = "Another Wedding Performance"
+			description = "Once again Himigs is blessed with another wedding performance"
+
+			
+		[[params.about.events]]
+			img = "present.jpg"
+			date = "Present"
+			title = "Group Continues to sing"
+			description = "Up to the present, the group is still actively participating in mass services in the Cathedral Parish of St. Andrew."
+
+
+	# Team section
+	[params.team]
+		title = "The Members"
+		subtitle = "And here are the members"
+		description = "The best there is."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "chris.jpg"
+			name = "Chris Laurence Balintona"
+			position = "Choir Master"
+			social = [
+				["fa-twitter", "https://twitter.com/christopovich"],
+				["fa-facebook", "https://www.facebook.com/Totoysky"]#,
+				#["fa-linkedin", "#"]
+			]
+
+		[[params.team.members]]
+			img = "esh.jpg"
+			name = "Esh Rosas"
+			position = "Advisor"
+			social = [
+				["fa-twitter", "https://twitter.com/sieshto"],
+				["fa-facebook", "https://www.facebook.com/esh.rosas"]
+			]
+
+		[[params.team.members]]
+			img = "vien.jpg"
+			name = "Joshua Vien Capistrano"
+			position = "President"
+			social = [
+				["fa-twitter", "https://twitter.com/joshuavien"],
+				["fa-facebook", "https://www.facebook.com/joshua.vien"]
+			]
+			
+		[[params.team.members]]
+			img = "darius.jpg"
+			name = "Darius Pelonia"
+			position = "IT Master"
+			social = [
+				["fa-twitter", "https://twitter.com/darpell"],
+				["fa-facebook", "https://www.facebook.com/darpell"],
+				["fa-linkedin", "https://ph.linkedin.com/in/dariusp"]
+			]
+
+		[[params.team.members]]
+			img = "vinnie.jpg"
+			name = "John Vincent Capistrano"
+			position = "The Mathematician"
+			social = [
+				["fa-twitter", "https://twitter.com/vinnie_15"],
+				["fa-facebook", "https://www.facebook.com/vinniecapistrano"],
+				["fa-linkedin", "https://ph.linkedin.com/in/john-vincent-capistrano-0079b536"]
+			]
+
+		[[params.team.members]]
+			img = "christian.jpg"
+			name = "Christian Vincent Belen"
+			position = "The Architect"
+			social = [
+				["fa-twitter", "https://twitter.com/chrisvincebelen"],
+				["fa-facebook", "https://www.facebook.com/chrisvincebelen"],
+				["fa-linkedin", "https://www.linkedin.com/in/christian-vincent-belen-88836948"]
+			]
+			
+		[[params.team.members]]
+			img = "ton.jpg"
+			name = "Anthony Lobigas"
+			position = "The Motorcyclist"
+			social = [
+				["fa-facebook", "https://www.facebook.com/gfirmalino"]
+			]
+
+		[[params.team.members]]
+			img = "nicko.jpg"
+			name = "Nicko Espanola"
+			position = "The Marketer"
+			social = [
+				["fa-facebook", "https://www.facebook.com/nicko.espanola23"]
+			]
+
+		[[params.team.members]]
+			img = "marc.jpg"
+			name = "Marc Rudolph Jacinto"
+			position = "The Body Builder"
+			social = [
+				["fa-twitter", "https://twitter.com/whateveryaya01"],
+				["fa-facebook", "https://www.facebook.com/jacinto.marc"],
+				["fa-linkedin", "https://ph.linkedin.com/in/marc-rudolph-jacinto-699a2158"]
+			]
+
+	# Client section (NOT USED) pages are DISABLED
+	# All the clients' logos are stored under 'static/img/logos'.
+	# Replace them with your clients's logos.
+	[[params.clients]]
+		logo = "envato.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "designmodo.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "themeforest.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "creative-market.jpg"
+		link = "#"
+
+
+	# Contact section
+	[params.contact]
+		title = "Contact us"
+		subtitle  = "We'll contact you as soon as we can"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+		copyright = "Published under the Apache License 2.0. <br/> [Link to the theme.](http://themes.gohugo.io/agency/)"
+
+		#[[params.footer.social]]
+			#icon = "fa-twitter"
+			#link = "#"
+
+		#[[params.footer.social]]
+			#icon = "fa-facebook"
+			#link = "#"
+
+		#[[params.footer.social]]
+			#icon = "fa-linkedin"
+			#link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
