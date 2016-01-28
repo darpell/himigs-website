@@ -18,7 +18,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Himig Singers"
-	description = "Chorale Group"
+	description = "All Male Chorale Group"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -50,7 +50,7 @@ googleAnalytics = ""
 		# the 'static/img' folder.
 		title = "Welcome To Our Website!"
 		subtitle = "It's nice to meet you"
-		buttonText = "Here's more about us"
+		buttonText = "More about us"
 
 
 	# Services section
@@ -63,7 +63,7 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-microphone"
                 title = "Mass Services"
-                description = "We provide proper mass music fit for the occasion"
+                description = "We provide proper Mass music fit for the occasion"
 
             [[params.services.row.list]]
                 icon = "fa-heart"
@@ -122,7 +122,7 @@ googleAnalytics = ""
 			img = "marian festival.jpg"
 			date = "October 2014"
 			title = "Himigs performs during the Living Rosary"
-			description = "The group performed a beautiful song for the Living Rosary"
+			description = "The group sang a world premiere song, an arrangement of \"Oyayi\" which is arranged by Chris, our resident arranger and choir master,  for the Living Rosary"
 			
 		[[params.about.events]]
 			img = "wedding gig 201501.jpg"
@@ -141,15 +141,15 @@ googleAnalytics = ""
 	# Team section
 	[params.team]
 		title = "The Members"
-		subtitle = "And here are the members"
-		description = "The best there is."
+		subtitle = "People come and go but memories last forever<br/> <br/> After a while, we've decided to be an all male group <br/> <br/>Here are our current performing members"
+		description = "We are here to share our music to you and to the world :)"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
 			img = "chris.jpg"
 			name = "Chris Laurence Balintona"
-			position = "Choir Master"
+			position = "Choir Master/Arranger/Pianist"
 			social = [
 				["fa-twitter", "https://twitter.com/christopovich"],
 				["fa-facebook", "https://www.facebook.com/Totoysky"]#,
@@ -159,7 +159,7 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "esh.jpg"
 			name = "Esh Rosas"
-			position = "Advisor"
+			position = "Adviser/CPSAMM Coordinator"
 			social = [
 				["fa-twitter", "https://twitter.com/sieshto"],
 				["fa-facebook", "https://www.facebook.com/esh.rosas"]
@@ -177,7 +177,7 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "darius.jpg"
 			name = "Darius Pelonia"
-			position = "IT Master"
+			position = "The IT Guy"
 			social = [
 				["fa-twitter", "https://twitter.com/darpell"],
 				["fa-facebook", "https://www.facebook.com/darpell"],
@@ -187,7 +187,7 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "vinnie.jpg"
 			name = "John Vincent Capistrano"
-			position = "The Mathematician"
+			position = "The Mathematician/Treasurer"
 			social = [
 				["fa-twitter", "https://twitter.com/vinnie_15"],
 				["fa-facebook", "https://www.facebook.com/vinniecapistrano"],
@@ -207,17 +207,9 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "ton.jpg"
 			name = "Anthony Lobigas"
-			position = "The Motorcyclist"
+			position = "The Technical Guy"
 			social = [
 				["fa-facebook", "https://www.facebook.com/gfirmalino"]
-			]
-
-		[[params.team.members]]
-			img = "nicko.jpg"
-			name = "Nicko Espanola"
-			position = "The Marketer"
-			social = [
-				["fa-facebook", "https://www.facebook.com/nicko.espanola23"]
 			]
 
 		[[params.team.members]]
@@ -228,6 +220,14 @@ googleAnalytics = ""
 				["fa-twitter", "https://twitter.com/whateveryaya01"],
 				["fa-facebook", "https://www.facebook.com/jacinto.marc"],
 				["fa-linkedin", "https://ph.linkedin.com/in/marc-rudolph-jacinto-699a2158"]
+			]
+			
+		[[params.team.members]]
+			img = "nicko.jpg"
+			name = "Nicko Espanola"
+			position = "The Marketer"
+			social = [
+				["fa-facebook", "https://www.facebook.com/nicko.espanola23"]
 			]
 
 	# Client section (NOT USED) pages are DISABLED
@@ -253,7 +253,7 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
 		title = "Contact us"
-		subtitle  = "We'll contact you as soon as we can"
+		subtitle  = "We'll gladly answer any concerns, questions or requests you have"
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
@@ -278,6 +278,10 @@ googleAnalytics = ""
 	[params.footer]
 		copyright = "Published under the Apache License 2.0. <br/> [Link to the theme.](http://themes.gohugo.io/agency/)"
 
+		[[params.footer.social]]
+			icon = "fa-youtube"
+			link = "https://www.youtube.com/channel/UCBM4_brIcJVGyAoJYB5erPQ"
+			
 		#[[params.footer.social]]
 			#icon = "fa-twitter"
 			#link = "#"
