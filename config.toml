@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "Himig Singers"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-72995921-1"
 
 [params]
 
@@ -110,25 +110,25 @@ googleAnalytics = ""
 			img = "church_singing.jpg"
 			date = "May 2011"
 			title = "The Choir is Formed"
-			description = "Due to consistent and constant member participation during the summer of 2011, the group decided to formalize on May 2011 and started to serve for the Cathedral Parish of St. Andrew Parañaque."
+			description = "Due to consistent and constant member participation during the summer of 2011, the group decided to formalize on May 2011 and started to serve at the Cathedral Parish of St. Andrew Parañaque."
 
 		[[params.about.events]]
 			img = "wedding gig 201212.jpg"
 			date = "December 2012"
 			title = "First Wedding Performance"
-			description = "Himigs first wedding performance which occurred at St. James the Great Parish Church in Ayala, Alabang."
+			description = "Himigs first wedding performance which was held at St. James the Great Parish Church in Ayala, Alabang."
 
 		[[params.about.events]]
 			img = "marian festival.jpg"
 			date = "October 2014"
 			title = "Himigs performs during the Living Rosary"
-			description = "The group sang a world premiere song, an arrangement of \"Oyayi\" which is arranged by Chris, our resident arranger and choir master,  for the Living Rosary"
+			description = "The group performed \"Oyayi\", lyrics by Chito Beltran, music by Seven Zabala and Francisco Garcia, and a world premiere arrangement by Chris Balintona, the group's resident arranger and choir master."
 			
 		[[params.about.events]]
 			img = "wedding gig 201501.jpg"
 			date = "January 2015"
 			title = "Another Wedding Performance"
-			description = "Once again Himigs is blessed with another wedding performance"
+			description = "HimigS was blessed with another wedding engagement held at the Presentation of the Child Jesus Parish in BF Homes Paranaque City."
 
 			
 		[[params.about.events]]
@@ -149,7 +149,7 @@ googleAnalytics = ""
 		[[params.team.members]]
 			img = "chris.jpg"
 			name = "Chris Laurence Balintona"
-			position = "Choir Master/Arranger/Pianist"
+			position = "Choirmaster/Arranger/Pianist"
 			social = [
 				["fa-twitter", "https://twitter.com/christopovich"],
 				["fa-facebook", "https://www.facebook.com/Totoysky"]#,
