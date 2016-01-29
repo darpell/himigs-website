@@ -104,7 +104,7 @@ googleAnalytics = "UA-72995921-1"
 			img = "logo.jpg"
 			date = "March 2011"
 			title = "Our Humble Beginnings"
-			description = "Himig Singers, formerly called as Himig Andreano, mostly consists of graduates from St. Andrew's School but is open for other people who have dedication and commitment to music. The group started as guest singers at a choral conducting recital held in St. Scholastica's College last March 2011 which sung together with Coro Andreano, the official high school choir of St. Andrew's School."
+			description = "Himig Singers, formerly called Himig Andreano, consists mostly of alumni of St. Andrew's School in Paranaque City. The group started as guest singers at a choral conducting recital held in St. Scholastica's College last March 2011. They performed together with Coro Andreano, the official high school choir of St. Andrew's School. The group is open for all male singers who have the same passion for choral music and lasting commitment to serve."
 
 		[[params.about.events]]
 			img = "church_singing.jpg"
@@ -116,13 +116,13 @@ googleAnalytics = "UA-72995921-1"
 			img = "wedding gig 201212.jpg"
 			date = "December 2012"
 			title = "First Wedding Performance"
-			description = "Himigs first wedding performance which was held at St. James the Great Parish Church in Ayala, Alabang."
+			description = "HimigS first wedding performance was which held at St. James the Great Parish Church in Ayala, Alabang."
 
 		[[params.about.events]]
 			img = "marian festival.jpg"
 			date = "October 2014"
 			title = "Himigs performs during the Living Rosary"
-			description = "The group performed \"Oyayi\", lyrics by Chito Beltran, music by Seven Zabala and Francisco Garcia, and a world premiere arrangement by Chris Balintona, the group's resident arranger and choirmaster."
+			description = "The group performed \"Oyayi\", lyrics by Chito Beltran, music by Steven Zabala and Francisco Garcia, and a world premiere arrangement by Chris Balintona, the group's resident arranger and choirmaster."
 			
 		[[params.about.events]]
 			img = "wedding gig 201501.jpg"
