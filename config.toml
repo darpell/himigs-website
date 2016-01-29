@@ -116,7 +116,7 @@ googleAnalytics = "UA-72995921-1"
 			img = "wedding gig 201212.jpg"
 			date = "December 2012"
 			title = "First Wedding Performance"
-			description = "HimigS first wedding performance was which held at St. James the Great Parish Church in Ayala, Alabang."
+			description = "HimigS first wedding performance which was held at St. James the Great Parish Church in Ayala, Alabang."
 
 		[[params.about.events]]
 			img = "marian festival.jpg"
