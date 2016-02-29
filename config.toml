@@ -207,7 +207,7 @@ googleAnalytics = "UA-72995921-1"
 		[[params.team.members]]
 			img = "ton.jpg"
 			name = "Anthony Lobigas"
-			position = "The Technical Guy"
+			position = "Teacher, Computer Technician, Street Guitarist"
 			social = [
 				["fa-facebook", "https://www.facebook.com/gfirmalino"]
 			]
