@@ -72,7 +72,7 @@ googleAnalytics = "UA-72995921-1"
 
             [[params.services.row.list]]
                 icon = "fa-heart-o"
-                title = "Funerals"
+                title = "Wake"
                 description = "Offering a last good bye together with your loved ones"
 
 	# Portfolio section (NOT USED) pages are DISABLED
@@ -276,8 +276,9 @@ googleAnalytics = "UA-72995921-1"
 
 	# Footer section
 	[params.footer]
-		copyright = "Published under the Apache License 2.0. <br/> [Link to the theme.](http://themes.gohugo.io/agency/)"
-
+		#copyright = "Published under the Apache License 2.0. <br/> [Link to the theme.](http://themes.gohugo.io/agency/)"
+		copyright = "Himig Singers 2016"
+		
 		[[params.footer.social]]
 			icon = "fa-youtube"
 			link = "https://www.youtube.com/channel/UCBM4_brIcJVGyAoJYB5erPQ"
@@ -295,9 +296,9 @@ googleAnalytics = "UA-72995921-1"
 			#link = "#"
 
 		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
+			text = ""
 			link = "#"
 
 		[[params.footer.quicklinks]]
-			text = "Terms of Use"
+			text = ""
 			link = "#"
